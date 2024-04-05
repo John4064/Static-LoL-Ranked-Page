@@ -1,5 +1,12 @@
-export default function Home() {
+import React from 'react';
+import { Home } from '../components';
+
+export default function Landing() {
+
   return (
-    <h1>Hello</h1>
+    <React.Fragment>
+      <h1>Hello</h1>
+      <Home />
+    </React.Fragment>
   );
 }
